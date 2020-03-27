@@ -13,9 +13,9 @@ routes.get('/ongs',OngController.index)
 
 routes.post('/ongs',OngController.create)
 
-routes.post('/incident',IncidentController.create);
+routes.post('/incidents',IncidentController.create);
 
-routes.get('/incident',IncidentController.index)
+routes.get('/incidents',IncidentController.index)
 
 routes.delete('/incidents/:id',IncidentController.delete)
 
